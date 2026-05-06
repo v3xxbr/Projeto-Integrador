@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta Dados que ajudam a descrever a norma com que o navegador interpretará o código-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Título que há de aparecer na aba do navegador-->
+    <title>Exemplo Exercício Desvio Condicional - Validação Número</title>
+</head>
+<body>
+    <!--Div serve como o grupo onde estarão os elementos do objeto principal-->
+    <div class="container">
+        <!--Elemento de Texto que dá identidade a div-->
+        <h1 class="tit">Validação de Números</h1>
+
+        <!--Declaração do Botão como uma forma de input que aceita valores numéricos-->
+        <input type="number" id="numero" placeholder="Digite um número">
+
+        <!--Atribuição da função 'validarNumero()' como uma propriedade do botão declarado acima-->
+        <button onclick="validarNumero()">Validar</button>
+
+        <!--Parágrafo que atuará como manifestante principal da função validarNumero(), sendo identificável pelo ID 'mensagem'-->
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

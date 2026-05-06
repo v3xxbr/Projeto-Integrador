@@ -1,0 +1,88 @@
+/*Propriedades visuais do body*/
+body{
+    /*Font-Family para definir a fonte como Arial*/
+    font-family: Arial, sans-serif;
+
+    /*Display em Flex para que os elementos da tela não precisem seguir a estrutura rígida padrão da tela do navegador*/
+    display: flex;
+
+    /*Centralização horizontal*/
+    justify-content: center;
+
+    /*Centralização vertical*/
+    align-items: center;
+
+    /*Definição da altura do body como 100% da parte vertical na tela*/
+    height: 100vh;
+
+    /*Atribuição à cor correspondente a #f0f0f0 como propriedade do fundo*/
+    background-color: #f0f0f0;
+}
+
+/*Propriedades visuais da div principal (container)*/
+.container{
+    /*Centralização de todos os textos*/
+    text-align: center;
+
+    /*Espaçamento entre o conteúdo do container e sua borda em 20 pixels*/
+    padding: 20px;
+
+    /*Atribuição à cor correspondente a #fff como propriedade do fundo*/
+    background-color: #fff;
+
+    /*Arredondamento das bordas do container em 10 pixels*/
+    border-radius: 10px;
+    
+    /*Sombreamento na parte inferior do container*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*Propriedades visuais de elementos que atuam como input*/
+input{
+    /*Espaçamento entre o conteúdo do input e sua borda em 10 pixels*/
+    padding: 10px;
+
+    /*Margem direita de 10 pixels dentre o elemento input e o corpo que ele se encontra inserido*/
+    margin-right: 10px;
+
+    /*Borda padrão de 1 pixel em volta do input*/
+    border: 1px solid #ccc;
+
+    /*Arredondamento do Input em 5 pixels*/
+    border-radius: 5px;
+}
+
+/*Propriedades visuais dos botões*/
+button{
+    /*Espaçamento entre a borda e o conteúdo do botão como 10px na vertical e 20px na horizontal*/
+    padding: 10px 20px;
+
+    /*Declaração do fundo do botão como tendo por propriedade a cor #007BFF*/
+    background-color: #007BFF;
+
+    /*Cor dos elementos textuais do botão como brancos*/
+    color: white;
+
+    /*Proibição de bordas padrões no botão*/
+    border: none;
+
+    /*Arredondamento da borda (não-padrão) em 5 pixels*/
+    border-radius: 5px;
+
+    /*Quando o mouse passar por cima do botão, o cursor assumirá forma de ponteiro*/
+    cursor: pointer;
+}
+
+/*Propriedades visuais para caso o mouse esteja sobre o botão*/
+button:hover{
+    /*Alteração do fundo do botão para a cor correspondente ao código #0056b3*/
+    background-color: #0056b3;
+}
+
+p{
+    /*Margem de 20 pixels na margem superior a qualquer parágrafo*/
+    margin-top: 20px;
+    
+    /*Tamanho padrão de 18px para qualquer parágrafo do código*/
+    font-size: 18px;
+}
