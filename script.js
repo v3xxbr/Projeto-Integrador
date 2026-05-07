@@ -37,7 +37,7 @@ function validarNumero(){
                 mensagem.style.color = "orange";
 
                 /*Mensagem informa que o valor é maior que 5 e menor que 11*/
-                mensagem.textContent = "O número é maior que 5, mas menor ou igual a 10."
+                mensagem.textContent = "O número é maior que 5, mas menor ou igual a 10.";
             }
 
             /*Se o valor digitado é menor ou igual que 5*/
@@ -46,7 +46,7 @@ function validarNumero(){
                 mensagem.style.color = "blue";
 
                 /*Mensagem informa que o valor é menor que 6*/
-                mensagem.textContent = "O número é 5 ou menor."
+                mensagem.textContent = "O número é 5 ou menor.";
             }
         }
     }
